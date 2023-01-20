@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h3> LISTA DE LA COMPRA </h3>
+    </header>
+
+    <div class= "list" id="product-list-container">
+        <!-- Lista de productos que elige el cliente. -->
+    </div>
+
+    <input type="button" class="button" id= "calc-btn" value="Calcular Total">
+
+    <div class="invoice">
+        <div class="invoice-item">
+            <span>Subtotal:</span>
+            <span class="inv-quantity" id="subtotal">0.00 €</span>
+        </div>
+        <div class="invoice-item">
+            <span>IVA:</span>
+            <span class="inv-quantity" id="iva">0.00 €</span>
+        </div>
+        <div class="invoice-item">
+            <span>TOTAL:</span>
+            <span class="inv-quantity" id="total">0.00 €</span>
+        </div>
+    </div>
+
+    <script src="lab.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+body {
+    margin: 20px;
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    margin: 10px;
+}
+
+.list {
+    margin: 20px;
+    text-align: right;
+}
+
+.inp-quantity {
+    width: 10%;
+}
+
+.item-div {
+    text-align: right;
+}
+
+.description-unit {
+    text-align: left;
+}
+
+.invoice-item {
+    font-weight: 600;
+    margin: 10px;
+    text-align: right;
+}
+
+input.button {
+    text-align: center;
+    margin: 15px;
+    padding: 7px;
+    width: 90%;
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: azure;
+    border-radius: 2px;
+    box-shadow: 1px 2px 5px 0 rgb(149, 122, 122);
+}
+
+.button:hover {
+    background-color: rgb(29, 152, 146);
+}
+
+.button:active {
+    box-shadow: 0 0px 3px 0 rgb(151, 86, 86);
+}
+
+input[type="number"].error {
+    color: red;
+    border: 3px solid red;
+}
